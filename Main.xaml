@@ -1,0 +1,167 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="850.4,1588.8" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="74">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Activities.Contracts</x:String>
+      <x:String>System.Net</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="100">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Activities.Contracts</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="496,1524" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: 臺中市立圖書館" sap:VirtualizedContainerService.HintSize="433.6,1400.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="f3b78c01-d773-447d-a093-f1cf5f8b2eaf" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,1175.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="pwd" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="337.6,32" sap2010:WorkflowViewState.IdRef="MaximizeWindow_2" />
+            <uix:NClick ClickType="Single" DisplayName="Click '登入'" sap:VirtualizedContainerService.HintSize="337.6,166.4" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f3b78c01-d773-447d-a093-f1cf5f8b2eaf" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://ipac.library.taichung.gov.tw/webpac/search.cfm" DesignTimeRectangle="1293, 343, 56, 25" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'登入'" FullSelectorArgument="&lt;webctrl id='login_window_kit_trigger' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='login_window_kit_trigger' tag='A' type='' class='loginBtn' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;登入                     ' check:innerText='登入' /&gt;" Guid="775ae7f6-747a-4c8a-ab31-930ae574cd7f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADwAAAAdCAYAAAD2DA/hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGOSURBVFhH7ZbNroIwEIXv8r6xCx/Gp2DtE7CVlRuXxIWJCxM2Y09/wEpbOlMSEfmSkygU2tOZ6fBHP8ZmeO30hv/31eoFNsNrFtgMl+tExwdRUw/XDq3//1MCMsPVlW72OZ87HXC/vhO1Fz12d+763xzp5yy38yk4hiswX4RfTPZRbtW1x5V272MZQnZ83jDMeUYu1LjoOuks8K9JUluaISEBcYSxeGN6XLNOw2LNGEmk9DxLMAzpxShSUcsZExcyR1FYFk5AbtgeXE1tFxUBUR2yIfCelHTpdGqejo5V4D5TQGTYRO2tZidkTl3ewjGP27A5Di7ANCyvRSNkQ67pl4NwdEjKBIpqWC8kB2kf9tpceVqDcsMTOy9rK4FMwFyFpzVYpOFwzcbbX67A8gyn3pkxX0pgWTWsW126VnWHEKY2KDMMJXad105MP59OWXmnAOWGlYLGAt/ScRmz3M3hmgazGB6fqowo2C82fsT4pgHbsK6hErz0z03jmHj9GcwU4e8Q2AyvWaA3/BsQPQEQPVDNeQ0+RQAAAABJRU5ErkJggg==" InformativeScreenshot="db6dbc972d2bec20fa54947fd557f3ed.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='臺中市立圖書館' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '帳號'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="337.6,227.2" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="f3b78c01-d773-447d-a093-f1cf5f8b2eaf" Text="L125241838" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://ipac.library.taichung.gov.tw/webpac/login_iframe.cfm?login_checker_kit=true&amp;call=close_fancybox&amp;params=" DesignTimeRectangle="796, 424, 219, 28" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT hidid'" FullSelectorArgument="&lt;webctrl id='fancybox-frame' tag='IFRAME' /&gt;&lt;webctrl id='hidid' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='fancybox-frame' tag='IFRAME' /&gt;&lt;webctrl id='hidid' tag='INPUT' type='text' class='' aaname='  &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;                             帳號 :                          &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' /&gt;" Guid="fa46ac49-746f-4619-a630-e86639b12d66" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAN8AAAAgCAYAAACSPa3gAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAKBSURBVHhe7d3dctJAHIbxXKV352VVHb+q1ToWKLS0UPL5N0/CAlHPdMtBn3fmHWimpCf9TZLdZCk2VRsPZRv3uzbuntpYbtu43Tax2DQx33f22MTNQ19eh/f1+LO1L7q9g4OJ0Ukygx8c4QlX+MIZ3p7qLsqmi2J9gm6+39HPfkc/1nVc39fxfd9vd33Tq7X22L2LZAU3+MERnnCVEOLtsexi2yMsVv0GlPJLfIAPX/U7+rKq4nJZxefbKj7t+/GP1vFhUVn7osr//e8WkhG84AY/OMITrvCFM7ytd90AsFhs2kHo9bqJr6s6Lvuyk/f9H3k3L+PtbOybWdW3jIsba+1pcYGPZAU3+MERnnCFL5zhbQTYH/nY8Or1hbX2GToCbIZT0AKRbFwul7Faray1GYovnOGNU1CuAQsOiWzcbrex2+2iLEtr7X8srvCFM7xxDcggTME5KRvruo6u66y1GYovnOGNQRiOfgUXhWxsmiaMMXmCL5zhjVFQrv0KRmXEZ0zeJHx4YxqCU8+CYVHxGZM3CR/emAdkIr5gXkJ8xuRNwoc3JuK57hOfMc+QU3xc9w34mJkXnzF5k/DhDXzcC9rj88hnTO4c8ZXDvaDcjF1wb5r4jMmbhA9vAz6OfOIzJn/EZ8yZIj5jzhTxGXOm/BWfo53G5E/CNxntdJ7PmPw54juZ5/MOF2PyJ+Gb3OEiPmPy5xTf4d5On2owJn8SvslTDT7PZ0z+JHyT5/k4/xSfMXmT8OHt8CR7WsNFfMbkS8I3WcMlrV4mPmPyJeGbrF6W1u0UnzH5kvBN1u10xWprn6+TFav9rgZr/624wEeyghv84AhPuMLXCC99V0MbvwDDO4cATqXNBAAAAABJRU5ErkJggg==" InformativeScreenshot="94a3f40ea66257671c2efe6e0ce39039.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='臺中市立圖書館' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="745, 428, 38, 20" ElementType="Text" FriendlyName="'帳號'" FullSelectorArgument="&lt;webctrl id='fancybox-frame' tag='IFRAME' /&gt;&lt;webctrl parentid='mode' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl id='fancybox-frame' tag='IFRAME' /&gt;&lt;webctrl parentid='mode' tag='LABEL' type='' class='' aaname='  &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;                             帳號 :                          &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' check:innerText='帳號 :' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACoAAAAYCAYAAACMcW/9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAF6SURBVFhH7ZYNjoMgEIU5I0kvZLwKHoUepMl6ipW+Qf4GBNnGJpjsS3DAwvD5Bk2FGVjbhub6twDd0Bkb1Ddchge18R/0AtG5JFAbbwOKeAz6nI1cVjeAMBZClO2hTJylzZz9Pj/dT6Q854nIxR10j92g55sANAFfF1mApg8hxIwVdTVBKTlPJnbAQ0fzjc5BL3M0JPdJ89jUUelXox78XtrYg2T6GLTcqF26XQTq5r2UkVNcoaf6ej0hP6rzg/7ljtrk2cPIRVtQlR0pur++3MIDfRWUVJzLhqNnSkv/i0sHqCrOXmy8fGU5E1BceZ566UkpKMXvvUz2C8C/BH9RPyjckdiQgUN0fuw9KmUVwgGGckdn9SSNapxPryZoUO5gOqbNg2MVecCwLjrbA3r6MgVVQMlxSqBdrIK6+QEKY1sFyN+jXGyPRB+DWkC4yBJbZ/kL4ecJQTBwkVwN5d8VP2NtZ/tKP4D6/j0NIAaKzrCgJAK18T6gxrwB24JFULPIunYAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <ui:GetPassword DisplayName="Get Password" sap:VirtualizedContainerService.HintSize="337.6,32" sap2010:WorkflowViewState.IdRef="GetPassword_3" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2N/kf2SM7EyTEcbGiZd9/wAAAAACAAAAAAAQZgAAAAEAACAAAABDGs7T5DrlM6oulfhZDpVQcTZBPjOusYwATO5oo6EqzQAAAAAOgAAAAAIAACAAAADSDjeS7iGRwEh16nmcMOIP9CyS7rH6hZg1UZz0AK2TPhAAAAD3Zg+VCvxCoxQb17DytCIEQAAAAChpwezQEW5yXcZOz77if6l8FQRd7CdV4fUL3gEffYbI499FD35dBPHle6T+a1G4hu1meHKnLLfz7WAr0yib5hs=" Result="[pwd]" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '密碼'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="337.6,227.2" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="f3b78c01-d773-447d-a093-f1cf5f8b2eaf" Text="like2658" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://ipac.library.taichung.gov.tw/webpac/login_iframe.cfm?login_checker_kit=true&amp;call=close_fancybox&amp;params=" DesignTimeRectangle="796, 464, 219, 28" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" FriendlyName="'INPUT password'" FullSelectorArgument="&lt;webctrl id='fancybox-frame' tag='IFRAME' /&gt;&lt;webctrl id='password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='fancybox-frame' tag='IFRAME' /&gt;&lt;webctrl id='password' tag='INPUT' type='password' class='' aaname='密碼 :' /&gt;" Guid="80e48db9-57f1-43a0-9d1f-156661b66701" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAN8AAAAgCAYAAACSPa3gAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADaSURBVHhe7dZRCoJAGIVR978qF1ZO/2jKFEZE1H05B+9Y2usHTcvSWl3tWse+Sz0cv5vZ53vuqK629tY/lOl+rwfL8eJYf36ya700s2rmpI91dTyuP637sDW+cbstxpMgzezNtnZ2/dPD6uirv51DYGc/NLPvV8e2/m0z9WOeZzP7w0ZHfMBviQ9CxAch4oMQ8UGI+CBEfBAiPggRH4SID0LEByHigxDxQYj4IER8ECI+CBEfhIgPQsQHIeKDEPFBiPggRHwQIj4IER+EvIzPzH6/0Rof8G+t3QDYT6Y8gS4ukAAAAABJRU5ErkJggg==" InformativeScreenshot="1becac3668b6cda4199971f36b869d21.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='臺中市立圖書館' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="745, 468, 38, 20" ElementType="Text" FriendlyName="'密碼'" FullSelectorArgument="&lt;webctrl id='fancybox-frame' tag='IFRAME' /&gt;&lt;webctrl aaname='密碼 :' parentid='login_form' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl id='fancybox-frame' tag='IFRAME' /&gt;&lt;webctrl aaname='密碼 :' parentid='login_form' tag='LABEL' type='' class='' check:innerText='密碼 :' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACoAAAAYCAYAAACMcW/9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFlSURBVFhH7ZbrrcMgDIWZEakLRaxCRiGD5AdjUJtHsMMjNKKqKuVISBeusD8fA6lwf6IHdLYe0Nl6QGdrANQ4JaTTe5y2tCknhGBDrsbpF1/LYyAmEQetJOuOxcSNRLt2arVxYgFUQalBZvkMjqoAlUeSKEgsG0C1dbtKp7Y48aCVAltFdtQBJW6g0ykw/O1BGqBmyQ5+z9EkD4zniybFROiEhvVGwgL+nqM+z0vD7qwS9HCPuIEAEJy3tITFtmcY3HvP0UvQ4FgKS9wgm/IZ5BC+GIAPjqb/3QOtqdp67sx5EDgiuyqnt9R6ClqLgaMepyUCmoPym89d6eo4o9d7+KW7VuEof15QlaSNG1+CwscCj42/nPC+gosand8/KD5qPihrLQW1ITY46V8UeD1o36iGbn3/fJIx4mgExPX8tULFAuLsrLHnaUQtR0/ChPzjgL8bQqG8a9e6B/oDPaCz9Segzr0ByfNHBYF2OO0AAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click '登入'" sap:VirtualizedContainerService.HintSize="337.6,166.4" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f3b78c01-d773-447d-a093-f1cf5f8b2eaf" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://ipac.library.taichung.gov.tw/webpac/login_iframe.cfm?login_checker_kit=true&amp;call=close_fancybox&amp;params=" DesignTimeRectangle="796, 517, 75, 35" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'登入'" FullSelectorArgument="&lt;webctrl id='fancybox-frame' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='fancybox-frame' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' type='button' class='btn_small' aaname='登入' check:innerText='登入' /&gt;" Guid="c4d86c7a-4ceb-4368-baf4-fba1e443e283" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE8AAAAnCAYAAABOkxWxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAALdSURBVGhD7ZrdTuJAFMf7UryR3vMGhjfwmms1xqiJxAv1zguDW7KSVINKImqIHwmsAi4gXz3Of2iFgSM7LNCGdBp/gdgzNfPzzDlNZiwy139fRt4MFy/PdcWPR68XbTwPcDJ6qfIQWKmQ+/hIlM8T3d5GFzF/9+GBuuUydVst6nU6UuawxG950nKxyD8o4nQKBWpWq9T5/KRet+sZ8+Uh44y4ibREJn6UStSq17+zz5Li3t/ZAQaVyvU1VV9f+9knvFmyIIq1zQUbVOqOQy+5nFy+8GahEHKBhnF6Qtzd2Rk1azXZQCx0Ei7QwJM7OZG1D96sdrPJBhl4nFSKKk9PBG9Wu9Fggww82f19ehPvwfBmydbLBBl4Lvb26I9osPBm5E3Jxe4ule/vg5R3SOuxGMWGSRwSpdb6nyKmnFyl9RQ3doR0kuLyGWvkcPcXTAjyVAaibDpYEd8TqxRP2vKek9CR0h93kObuLZaQMs+TMpRtEmTSSpLK4ruTiOllX6TkpW0hx1u6w+J8IFTc0xMH+s/Sj58fodU8LE1kl1L7JCIrvVqmJUTIjovlHef+EQsmWHkyq/SLO+T69Y/HX7JDpSBAQmsYaBTjWeejKQIZOm2HniOhyuMni2zSkTfaKET2ec1mPHYxLK08mbkjdQ6/m7zM58tyLlvZULiYYF9bQpPHT1Qj66S4CYL+dX+OhCgPqF3y56XsoSsmIIHBypOT4pbpzwxkTvk6gr+14AYScuYtN0beDBh5M2DkzYCRNwNj8tybGzbQoNLN5cbltaN+IkqTqm2rG0DYQvtbKLDBBpXC8bG69YjNW2ziNq6u2AGGPm/n55TZ2lI3vXFsAMcHni8v6SObZQdGHV/c750d9bgFDqzg4EpJLF0cYimenlItk5HFkXtQVMD8UePujo7o18YGZba3ZdYpB31wVApHpmATx6fyQh6CYBm27c1NOTiKYO5+xsEJ3AyOmLn0BbJ42wa3WEpMAAAAAElFTkSuQmCC" InformativeScreenshot="ce175b32f5eea6440d4cb9e6694b8af5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='臺中市立圖書館' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADASURBVDhPYxh4cE1UQu6qqMQMZAwUywJiNSBuwiJXBcR6UO1gA4yA+D8a3gTEDkB8A0kMhr8A8RmgYU5QIxgYroqKm4AEoQpmgMSANMgFMAPWALEXEE8D4h9QsVVAfWJEGQByOlghEAD5h0BiQPwMiHXAgiQaUAYSg2IjsCCJBqSBxKB4YAyAeeEXEJNlACwQ7wHFNcCChAwAYmzRuOCaiIQISCGpCekDEO8AYojzgQySkjLQtXlAcSWw5kEAGBgALzgFUP7I2LwAAAAASUVORK5CYII=" InformativeScreenshot="10c048ee3b8daa882b6dee986ff31482.jpg" Selector="&lt;html app='chrome.exe' title='臺中市立圖書館' /&gt;" Url="https://ipac.library.taichung.gov.tw/webpac/search.cfm" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
